@@ -32,7 +32,6 @@ function ProductGrid(props) {
 const Grid = styled.div`
   display: grid;
   flex-wrap: wrap;
-  padding: 0 20px;
   margin-top: 20px;
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: minmax(100px, auto);
