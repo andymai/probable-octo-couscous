@@ -22,9 +22,7 @@ export class DesignListView extends React.PureComponent {
           <title>Browse Eyewear | Ditto</title>
           <meta name="description" content="Browse our selection of eyewear" />
         </Helmet>
-        <Section>
-          <H1 label="Select Your Eyewear" />
-        </Section>
+        <H1 label="Select Your Eyewear" />
         <ProductGrid items={products.eyewear} />
       </div>
     );
