@@ -24,6 +24,9 @@ const Title = styled.div`
   @media (min-width: 1280px) {
     font-size: 92px;
   }
+  @media (max-width: 680px) {
+    font-size: 36px;
+  }
 `;
 
 H1.propTypes = {
